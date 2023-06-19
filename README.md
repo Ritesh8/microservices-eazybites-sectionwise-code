@@ -87,8 +87,8 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 | "docker container prune" | To remove all stopped containers |
 | "docker compose up" | To create and start containers based on given docker compose file |
 | "docker compose stop" | To stop services |
-| "docker image tag eazybytes/accounts:latest ritesh8/accounts" | Tag the image with your docker hub repo name before pushing it to repo |
-| "docker image push ritesh8/accounts" | Push the image to ritesh8 docker hub |
+| "docker image tag eazybytes/accounts:latest {userName}/accounts" | Tag the image with your docker hub repo name before pushing it to repo |
+| "docker image push {userName}/accounts" | Push the image to ritesh8 docker hub |
 
 ## Kubernetes Commands used in the course
 
