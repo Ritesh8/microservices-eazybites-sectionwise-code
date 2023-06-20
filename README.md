@@ -132,3 +132,10 @@ Learn how to create enterprise and production ready Microservices with Spring, S
 | "helm uninstall [NAME]" | Uninstall all of the resources associated with a given release |
 | "helm template [NAME] [CHART]" | Render chart templates locally along with the values |
 | "helm list" | Lists all of the helm releases inside a K8s cluster |
+
+
+## Development process
+* Work on microservices
+* Use Spring cloud config to separate env related properties from microservices code
+* Build an image either using dockerfile or maven spring boot plugin
+* User Dockercompose to start/stop all services at once, externalize the properties from individual microservices
